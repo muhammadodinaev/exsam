@@ -1,3 +1,115 @@
 *{
-    margin: o;
+    margin: 0;
+    font-family: sans-serif;
+}
+.bagraun-img{
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-image: url(./Mask\ group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+
+}
+.box2{
+    display: flex;gap: 40px;
+    align-items: center;
+}
+.box3{
+    display: flex;gap: 10px;
+    align-items: center;
+
+}
+.box5{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    height: 500px;
+    
+}
+.p1{
+    font-size: 80px;
+    font-weight: 400px;
+    width: 300px;
+}
+.p2{
+    font-size: 20px;
+    font-weight: 400px;
+    width: 450px; 
+}
+.button{
+    background-color: rgba(96, 200, 128, 1);
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px 30px;
+    width: 300px;
+    color: white;
+}
+.hr{
+    border: 1px solid rgb(129, 129, 129);
+}
+.box10{
+        display: none;
+}
+.davra{
+    
+    position: absolute;
+    top: 490px;
+    right: 120px;
+}
+.imgdavra{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+@media (max-width:510px) {
+    .hr{
+        display: none;
+    }
+    .p1{
+        font-size: 36px;
+    }
+    .p2{
+        font-size: 18px;
+        width: 335px;
+    }
+    .boximg{
+        display: block;
+    }
+    .boximg{
+        display: none;
+    }
+    .img{
+        display: none;
+    }
+    .box10{
+        display: block;
+       
+    }
+    .imgdavra{
+       width: 80px;
+       height: 80px;
+   }
+   .davra{
+    top: 570px;
+    right: 40px;
+   }
+    
 }
