@@ -270,6 +270,39 @@
     font-weight: 400px;
     
 }
+.sponsori{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.sponsori2{
+    border: 1px solid rgb(247, 245, 245);
+    width: 170px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.o1{
+    width: 100px;
+}
+.sponsori3{
+    border: 1px solid rgb(247, 245, 245);
+    width: 170px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
 
 
 
@@ -383,9 +416,6 @@
     top: 100px;
     left:260px;
 } 
- 
-
-  
   .praktic6{
     top: 220px;
     
@@ -417,6 +447,21 @@
   .p11{
     font-size: 14px;
   }
+  .d1{
+    margin-top: 300px;
+  }
+  .sponsori{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .o1{
+    width: 117px;
+    height: 70px;
+  }
+  .sponsori3{
+    display: none;
+  }
+ 
   
    
    
