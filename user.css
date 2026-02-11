@@ -319,6 +319,17 @@
     border: 1px solid rgb(204, 203, 203);
     
 }
+ .Novosti{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+ .obzor{
+    border: 1px solid rgb(223, 222, 222);
+    padding: 20px;
+ }
 
 
 
@@ -491,7 +502,10 @@
  .Backend{
     overflow: hidden;
  }
- 
+ .Novosti{
+    overflow: hidden;
+ }
+
   
    
    
