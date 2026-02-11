@@ -330,6 +330,47 @@
     border: 1px solid rgb(223, 222, 222);
     padding: 20px;
  }
+ .bag10{
+    font-size: 60px;
+    
+ }
+ .bag11{
+    font-size: 40px;
+    
+ }
+ .vaprosi{
+    width: 100%;
+    color: white;
+    background-color: rgba(96, 200, 128, 1);
+    padding-bottom: 70px;
+ }
+ .vaprosi2{
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+ }
+ .button2{
+    padding: 10px 30px;
+    color: white;
+    background-color: rgba(96, 200, 128, 1);
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 400px;
+ }
+ .but{
+    display: flex;gap: 40px;
+ }
+  .button3{
+    padding: 10px 30px;
+    color:rgb(27, 27, 27);
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 400px;
+ }
 
 
 
@@ -504,6 +545,10 @@
  }
  .Novosti{
     overflow: hidden;
+ }
+ .but{
+    display: flex;
+    flex-direction: column;
  }
 
   
